@@ -10,7 +10,7 @@ GHT = '''
 '''
 print "Gunakan Dengan Bijak"
 print "CTRL+C Untuk Keluar"
-print "Thanks To Moreno77"
+print "Thanks To ZomBie87"
 
 
 email = str(raw_input("[*]=> Masukan ID Korban : "))
