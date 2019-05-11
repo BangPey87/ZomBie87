@@ -1,10 +1,9 @@
 clear
 figlet '    WEBDAV' | lolcat
 echo "    <=====================[]====================>" | lolcat
-echo "    <=====[       Tools By Moreno77       ]=====>" | lolcat
-echo  "    <=====[  Concact Me : +6285606753071  ]=====>" | lolcat
+echo "    <=====[          Tool by ZomBie         ]=====>" | lolcat
+echo  "    <=====[  Concact Me : +6283821185782  ]=====>" | lolcat
 echo "    <=====================[]====================>" | lolcat
-sleep 1
 read -p "Masukan Target =>" target;
 read -p "Masukan Nama Scriptnya =>" script;
 sleep 1
