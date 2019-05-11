@@ -27,4 +27,4 @@ sleep 0.5
 echo "[+] Proses...";
 sleep 2
 echo "[+] Proses Selesai,Silahkan Enter...";
-sh Moreno77.sh
+sh zombie.sh
