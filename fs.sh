@@ -133,7 +133,7 @@ case $pin in
 ;;
 25) git clone https://github.com/sysadminteam/IPscan
 ;;
-00) sh Moreno77.sh
+00) sh zombie.sh
 ;;
 *) echo "masukin dng benar"
 esac
