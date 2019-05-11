@@ -43,14 +43,14 @@ lagi=1
 while [ $lagi -lt 6 ];
 do
 echo ""
-echo -e $b "1. Pasword TXT${enda}";
+echo -e $b "1. Password TXT${enda}";
 echo -e $b "2. Proxy TXT${enda}";
 echo -e $b "3. Langsung Crack${enda}";
 echo -e $b "00. Exit${enda}";
 read -p "Pilih Nomernya =>" pil;
 
 case $pil in
-1) nano abc.txt
+1) nano password.txt
 echo
 
 ;;
@@ -62,7 +62,7 @@ echo
 
 ;;
 
-00) sh Moreno77.sh
+00) sh zombie.sh
 ;;
 
 *) echo "Pilih Sesuai List BangPey87"
