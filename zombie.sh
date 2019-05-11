@@ -18,11 +18,11 @@ blue='\e[1;34m'
 cyan='\e[1;36m'
 red='\e[1;31m'
 
-cowsay -f eyes "Moreno77" | lolcat
-figlet -f slant "Moreno77" | lolcat
+cowsay -f eyes "zombie" | lolcat
+figlet -f slant "zombie" | lolcat
 echo "    <=====================[]====================>" | lolcat
-echo "    <=====[       Tools By Moreno77       ]=====>" | lolcat
-echo  "    <=====[  Concact Me : +6285606753071  ]=====>" | lolcat
+echo "    <=====[          Tool by ZomBie         ]=====>" | lolcat
+echo  "    <=====[  Concact Me : +6283821185782  ]=====>" | lolcat
 echo "    <=====================[]====================>" | lolcat
 
 sleep 1
@@ -84,8 +84,8 @@ echo
 
 ;;
 
-99) echo "Autor : Moreno77" | lolcat
-figlet -f slant "Moreno77" | lolcat
+99) echo "Autor : zombie" | lolcat
+figlet -f slant "zombie" | lolcat
 exit
 ;;
 
